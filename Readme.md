@@ -1,3 +1,9 @@
+---
+
+_please scroll down for English_
+
+---
+
 # Exercice Stagiaire
 
 ## Objectif
@@ -39,3 +45,38 @@ Nous vous laissons toute latitude concernant la stack exacte.
 - Incluez un fichier **README.md** avec les instructions pour installer et exécuter votre application. **L'application devra impérativement pouvoir démarrer sur un environnement vierge.**
 - N'hésitez pas à utiliser l'IA, cependant, veillez à ce que votre code reste expliquable.
 
+---
+
+# English version - Intern Exercise
+
+## Objective
+The purpose of this exercise is to assess your skills on problems similar to those we handle day to day. You will need to build a small map application connected to a database.
+
+## Specifications
+The application must display, on top of an OSM (OpenStreetMap) basemap, the polygons of cadastral parcels owned by legal entities (companies/organizations) for department 02 (Aisne), in France. It must provide, through an intuitive interface, the owners’ SIREN number (a unique number identifying a company).
+
+**Bonus:** Also display the owner’s denomination (company name).
+
+## Resources to Consider
+- PostGIS database
+- Parcellaire Express file (PCI Express)
+- Fichier des locaux et parcelles des personnes morales (also called MAJIC file)
+- SIRENE database of companies and their establishments
+
+## Points to Consider
+Some resources are available through official or third-party APIs, while others are not, so you will need to decide which data sources you want to ingest and host yourself.
+
+The application should follow a standard architecture:
+
+```text
+database <--- API <---> frontend
+```
+
+You are free to choose the exact tech stack.
+
+## Project Submission
+📦 The code must be submitted in a GitHub repository.
+
+- Create a public or private repository (if private, grant access to the team).
+- Include a `README.md` file with instructions for installing and running your application. The application must be able to start in a clean environment.
+- Feel free to use AI tools; however, make sure your code remains explainable.
